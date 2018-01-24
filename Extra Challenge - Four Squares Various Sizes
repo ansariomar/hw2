@@ -1,0 +1,161 @@
+function downTwelveTimes() {
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+}
+function downTwentyoneTimes() {
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+  down()
+}
+function upTwelveTimes() {
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+  up()
+}
+var steps = 0
+while (steps < 9) {
+down()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 9) {
+right()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 9) {
+up()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 9) {
+left()
+setColor ("blue")
+steps = steps + 1
+}
+downTwelveTimes()
+
+var steps = 0
+while (steps < 18) {
+down()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 18) {
+right()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 18) {
+up()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 18) {
+left()
+setColor ("blue")
+steps = steps + 1
+}
+downTwentyoneTimes()
+var steps = 0
+while (steps < 36) {
+down()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 36) {
+right()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 36) {
+up()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 36) {
+left()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 39) {
+right ()
+steps = steps + 1  
+}
+var steps = 0
+while (steps < 36) {
+down()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 60) {
+right()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 60) {
+up()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 60) {
+left()
+setColor ("blue")
+steps = steps + 1
+}
+var steps = 0
+while (steps < 24) {
+down()
+setColor ("blue")
+steps = steps + 1
+}
