@@ -1,0 +1,15 @@
+function setup() { 
+  createCanvas(400, 400);
+var steps= 0;
+while(steps < 10){
+	drawLine(random(1,400), random(1,400), random(1,400), random(1,400));
+	steps = steps+1;
+}
+		 }
+	
+	function drawLine(x1,y1,x2,y2){
+		strokeWeight (10)
+		var lineLength= int(dist(x1,y1,x2,y2));
+		stroke(lineLength,random(0,255),random(0,255));
+		line(x1,y1,x2,y2);
+	}
