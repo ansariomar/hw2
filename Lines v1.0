@@ -1,0 +1,16 @@
+function setup() { 
+  createCanvas(800, 800);
+} 
+
+function draw() { 
+  background(random(0,255),random (0,255),255)
+	line(random(1,100), random(1,100), random(1,100), random(1,100));
+	line(random(1,200), random(1,200), random(1,200), random(1,200));
+	line(random(1,300), random(1,300), random(1,300), random(1,300));
+	line(random(1,400), random(1,400), random(1,400), random(1,400));
+	line(random(1,500), random(1,500), random(1,500), random(1,500));
+	line(random(1,600), random(1,600), random(1,600), random(1,600));
+	line(random(1,700), random(1,700), random(1,700), random(1,700));
+	line(random(1,800), random(1,800), random(1,800), random(1,800));
+	
+}
