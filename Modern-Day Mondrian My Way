@@ -13,7 +13,7 @@ function draw() {
 	drawRect(0,0,399,399,255,255,255);
 }
 function draw() { 
-	background(64);
+	background(random(0,255), random(0,255));
 	strokeWeight(1);
 	drawRect(10,10,75,35,random(0,255),random(0,255),100);//1-1?
 	drawRect(90,10,125,35,random(0,255),random(0,255),200);//1-2?
@@ -46,4 +46,5 @@ function draw() {
 	drawRect(360,350,30,40,random(0,255),random(0,255),200);//bottom6?	
 
 }
+
 
