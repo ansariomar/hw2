@@ -44,3 +44,4 @@ function draw() {
 	drawRect(220,320,100,70,245,16,15);//bottom4red
 	drawRect(325,350,30,40,243,243,243);//bottom5white
 	drawRect(360,350,30,40,0,0,0);//bottom6black
+	}
