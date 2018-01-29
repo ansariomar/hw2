@@ -1,0 +1,46 @@
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function drawRect (x1,y1,wid,hei,r,g,b) {
+	fill (r,g,b)
+	rect (x1,y1,wid,hei);
+}
+
+function draw() { 
+  
+	strokeWeight(5);
+	drawRect(0,0,399,399,255,255,255);
+}
+function draw() { 
+	background(64);
+	strokeWeight(1);
+	drawRect(10,10,75,35,243,243,243);//1-1white
+	drawRect(90,10,125,35,243,243,243);//1-2white
+	drawRect(220,10,100,35,250,228,23);//1-3yellow
+	drawRect(325,10,65,65,13,127,190);//1-4blue
+	drawRect(10,50,50,70,243,243,243);//2-1white
+	drawRect(65,50,150,150,245,16,15);//2-2red
+	drawRect(220,50,100,70,250,228,23);//2-3yellow
+	drawRect(325,80,65,70,245,16,15);//2-4red
+	drawRect(10,125,50,110,243,243,243);//3-1white
+	drawRect(220,125,47.5,75,243,243,243);//3-2white
+	drawRect(272.5,125,47.5,75,243,243,243);//3-3white	
+	drawRect(325,155,65,45,243,243,243);//3-4white
+	drawRect(10,240,50,110,250,228,23);//4-1yellow
+	drawRect(65,205,70,70,0,0,0);//4-2black
+	drawRect(65,280,70,70,243,243,243);//4-3white
+	drawRect(140,205,75,32.5,243,243,243);//4-4white
+	drawRect(140,242.5,75,32.5,243,243,243);//4-5white
+	drawRect(220,205.5,100,32.5,243,243,243);//4-6white
+	drawRect(220,242.5,100,70,13,127,190);//4-7blue
+	drawRect(325,205.5,30,65,243,243,243);//4-8white
+	drawRect(360,205.5,30,65,243,243,243);//4-9white
+	drawRect(140,280,75,35,0,0,0);//5-1black
+	drawRect(325,275,65,70,250,228,23);//5-2yellow
+	drawRect(10,355,125,35,243,243,243);//bottom1white
+	drawRect(140,320,35,70,250,228,23);//bottom2yellow
+	drawRect(180,320,35,70,243,243,243);//bottom3white
+	drawRect(220,320,100,70,245,16,15);//bottom4red
+	drawRect(325,350,30,40,243,243,243);//bottom5white
+	drawRect(360,350,30,40,0,0,0);//bottom6black
