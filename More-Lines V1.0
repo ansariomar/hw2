@@ -1,0 +1,30 @@
+function setup() { 
+  createCanvas(400, 400);
+
+} 
+
+function draw() { 
+  background(220);
+	var d = int(dist(width/2,height/2,0,400));	
+	stroke (d);
+	strokeWeight(5);
+	line (width/2,height/2,400,0);
+	var d = int(dist(width/2,height/2,0,0));	
+	stroke (d,50,300);
+	line (width/2,height/2,350,0);
+	var d = int(dist(width/2,height/2,0,0));	
+	stroke (d,50,200);
+	line (width/2,height/2,300,0);
+	var d = int(dist(width/2,height/2,0,0));	
+	stroke (d,200,50);
+	line (width/2,height/2,250,0);
+	var d = int(dist(width/2,height/2,0,0));	
+	stroke (d,300,50);
+	line (width/2,height/2,200,0);
+	var d = int(dist(width/2,height/2,0,0));	
+	stroke (d,100,50);
+	line (width/2,height/2,400,200);
+	var d = int(dist(width/2,height/2,0,0));
+	stroke (d,50);
+	line (width/2,height/2,400,100);
+  }
